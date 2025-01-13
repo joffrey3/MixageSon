@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MixageSon"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="727" Width="1478">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Slider Margin="162,14,10,0" VerticalAlignment="Top" Height="18" Grid.Row="1"/>
+        <Label Content="01:35 / 03:54" HorizontalAlignment="Left" Margin="77,10,0,0" VerticalAlignment="Top" Width="80" Height="26" Grid.Row="1" HorizontalContentAlignment="Center"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="62" Height="20" Grid.Row="1"/>
+        <Slider HorizontalAlignment="Right" Margin="0,59,102,10" Width="18" Orientation="Vertical" Grid.Row="1"/>
+        <Slider HorizontalAlignment="Right" Margin="0,59,79,10" Width="18" Orientation="Vertical" Grid.Row="1"/>
+        <Slider HorizontalAlignment="Right" Margin="0,59,56,10" Width="18" Orientation="Vertical" Grid.Row="1"/>
+        <Slider HorizontalAlignment="Right" Margin="0,59,33,10" Width="18" Orientation="Vertical" Grid.Row="1"/>
+        <Slider HorizontalAlignment="Right" Margin="0,59,10,10" Width="18" Orientation="Vertical" Grid.Row="1"/>
+        <Rectangle Margin="10,10,10,10" Stroke="Black" Grid.ColumnSpan="2" Panel.ZIndex="-10"/>
+        <TextBox Margin="77,36,10,0" TextWrapping="Wrap" Text="Url:" VerticalAlignment="Top" Height="18" Grid.Row="1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="62" Height="20" Grid.Row="1"/>
+        <Rectangle Stroke="Black" Panel.ZIndex="-10" Grid.Row="1" Grid.Column="1" Margin="10,10,10,10"/>
 
     </Grid>
 </Window>
